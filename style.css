@@ -280,6 +280,10 @@ body {
   margin: 0;
 }
 
+.project-image:not(:first-child){
+  margin-top: 100px;
+}
+
 .project-image img {
   width: 100%;
   object-fit: cover;
